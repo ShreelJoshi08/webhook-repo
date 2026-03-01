@@ -52,5 +52,5 @@ function fetchEvents() {
 // Initial call to load events when page loads
 fetchEvents();
 
-// Poll backend every 10 sec to fetch latest updates
-setInterval(fetchEvents, 10000);
+// Poll backend every 15 sec to fetch latest updates
+setInterval(fetchEvents, 15000);
